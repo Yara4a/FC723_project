@@ -4,7 +4,7 @@ import math
 import re
 
 # using OOP to make a class for easy use 
-class CalculatorApp:
+class Calculator:
     def __init__(self, root):
         # setting the window size and title
         self.root = root
