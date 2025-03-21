@@ -20,7 +20,7 @@ class Calculator:
         self.label.configure(bg="#FFA2B9", fg="#FFD1DC")
         self.welcome_button.configure(bg="#FFA2B9", fg="#FFD1DC")
     
-    # this is a method that clears the first page to show the second page
+    # this is a mefirst page to show the second page
     def clear_screen(self):
         for widget in self.root.winfo_children():
             widget.destroy()
